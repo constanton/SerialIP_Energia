@@ -22,7 +22,7 @@
  * SLIP connection set up under Linux:
  *
  *  # modprobe slip
- *  # slattach -L -s 115200 -p slip /dev/ttyUSB0     (see note below)
+ *  # slattach -L -s 115200 -p slip /dev/ttyACM1     (see note below)
  *  # ifconfig sl0 192.168.5.1 dstaddr 192.168.5.2
  *
  *  # ping 192.168.5.2
